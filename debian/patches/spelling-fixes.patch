@@ -1,0 +1,34 @@
+Description: Spelling fixes
+Author: Stephen Kitt <skitt@debian.org>
+
+--- a/html/uriTests.cc
++++ b/html/uriTests.cc
+@@ -88,7 +88,7 @@
+ 		cerr << e.what() << endl;
+ 		exit(1);
+ 	} catch (...) {
+-		cerr << "Unknow object thrown" << endl;
++		cerr << "Unknown object thrown" << endl;
+ 	}
+ 	exit(0);
+ }
+--- a/htmlcxx.cc
++++ b/htmlcxx.cc
+@@ -118,7 +118,7 @@
+ 		cerr << "Exception " << e.what() << " caught" << endl;
+ 		exit(1);
+ 	} catch (...) {
+-		cerr << "Unknow exception caught " << endl;
++		cerr << "Unknown exception caught " << endl;
+ 	}
+ 
+ #ifdef WIN32
+@@ -198,7 +198,7 @@
+ 		cerr << "Exception " << e.what() << " caught" << endl;
+ 		exit(1);
+ 	} catch (...) {
+-		cerr << "Unknow exception caught " << endl;
++		cerr << "Unknown exception caught " << endl;
+ 	}
+ 
+ 	exit(0);

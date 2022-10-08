@@ -1,0 +1,3 @@
+# These are C++ libraries with many template symbols
+# We could ship symbols files if the non-API symbols were hidden
+no-symbols-control-file usr/lib/x86_64-linux-gnu/libcss_parser_pp.so.0.0.0

@@ -1,0 +1,4 @@
+fix-gcc-4.6-ftbfs.patch
+reduce-linking.patch
+spelling-fixes.patch
+exception-decls.patch
